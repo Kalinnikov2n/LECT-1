@@ -1,3 +1,62 @@
-tg {
-    border: 1px;
+.red {
+    color: red;
 }
+.grey {
+    color: grey;
+}
+p {
+    color: chocolate;
+}
+div > span {
+    color: blue;
+}
+/* div > .grey {
+    color: grey;
+} */
+
+/* div {
+    display: flex;
+} */
+@keyframes move {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(10px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    75% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+
+}
+.parent {
+    display: flex;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    animation: move ease-in-out 1s infinite;
+    
+}
+
+/* button {
+    width: 50%;
+    height: 50px;
+} */
+/* .child {
+    background-color: darkgreen;
+    padding: 100px;
+    border: 10px solid red;
+    width: 500px;
+    margin: 25px;
+    text-align: center;
+}
+.child:hover {
+    background-color: black;
+} */
